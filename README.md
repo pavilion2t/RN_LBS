@@ -6,6 +6,8 @@ https://www.npmjs.com/package/express
       //  基于ejs创建项目 
    $ express -e service  
    $ cd service && npm install
+      // run the app:
+    $ DEBUG=service:* npm start
   ```
    
 
