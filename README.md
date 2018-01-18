@@ -7,7 +7,10 @@ https://www.npmjs.com/package/express
    $ express -e service  
    $ cd service && npm install
       // run the app:
-    $ DEBUG=service:* npm start
-  ```
-   
+   $ DEBUG=service:* npm start
+  ```     
+  
+服务--架构、数据库、ORM模型、安全认证  
+
+
 
