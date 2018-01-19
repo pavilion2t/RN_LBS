@@ -15,6 +15,34 @@ https://www.npmjs.com/package/express
 ```
 npm install -g supervisor   
 supervisor bin/www   
+```    
+
+返回JSon数据   
+```
+var express = require('express');
+var router = express.Router();
+
+router.get('/', function(req, res, next) {
+  // res.render('index', { title: 'Express' });
+  return res.send({
+    status: 1,
+    info: "return sth"
+  })
+});
+
+module.exports = router;   
+```   
+
+返回页面  
+```
+var express = require('express');
+var router = express.Router();
+
+router.get('/', function(req, res, next) {
+  res.render('index', { title: 'Express' });
+});
+
+module.exports = router;   
 ```
 
 
