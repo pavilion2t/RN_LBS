@@ -10,7 +10,12 @@ https://www.npmjs.com/package/express
    $ DEBUG=service:* npm start
   ```     
   
-服务--架构、数据库、ORM模型、安全认证  
+服务--架构、数据库、ORM模型、安全认证     
+
+```
+npm install -g supervisor   
+supervisor bin/www   
+```
 
 
 
